@@ -6,6 +6,18 @@
 6. Send link to public repoistory to me on Slack or call me over to review.
 7. We will review and discuss in class at 8:00am.
 
+# Day 3: Git Commands
++ git branch branchname #creates a new branch
++ git checkout branchname #checks out the branch
++ git checkout -b newbranch #creates and checks out branch
++ git diff branchname # diffs branchname if branched checked out is not branchname
++ git branch -r #list all branches tracked by the origin.
++ git branch -D branchname #deletes local branch
++ git branch -D origin/branchname -r #deletes remote branch tracking
++ git push origin -D branchname #deletes remote branch
++ git merge branchname # merges branchname into checked out branch
++ git pull # collects the changes for the repository
+
 # Solution to In-Class Exercise for Day 2
 cd ~/Desktop
 
