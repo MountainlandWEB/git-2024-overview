@@ -15,7 +15,7 @@ COMMANDS that you’ll use quite often when getting started with git
 + `git commit -m “any message you want to type in here specific to your proj”`
 + `git remote add origin [git hub rep url link goes in here with the brackets]`
 + `git push -u origin master`
-===================================================
++ ===================================================
 + `git branch branchname` #creates a new branch
 + `git checkout branchname` #checks out the branch
 + `git checkout -b newbranch` #creates and checks out branch
