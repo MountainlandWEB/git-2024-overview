@@ -14,3 +14,16 @@ There are many version control systems out there – but Git has some major adva
 
 Branches are lightweight and cheap, so it's OK to have many of them. Git stores changes in SHA hashes, which work by compressing text files. That makes Git a very good version control system (VCS) for software programming, but not so good for binary files like images or videos.
 Git repositories can be connected, so you can work on one locally on your own machine, and connect it to a shared repository. This way, you can push and pull changes to a repository and easily collaborate with others.
+
+## How to use Git
+Some of the most important and most used commands that you'll find there are:
++ ``git clone [url]:`` Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits.
++ ``git status:`` Always a good idea, this command shows you what branch you're on, what files are in the working or staging directory, and any other important information.
++ ``git branch:`` This shows the existing branches in your local repository. You can also use git branch [branch-name] to create a branch from your current location, or git branch --all to see all branches, both the local ones on your machine, and the remote tracking branches stored from the last git pull or git fetch from the remote.
++ ``git checkout [branch-name]:`` Switches to the specified branch and updates the working directory.
++ ``git add [file]:`` Snapshots the file in preparation for versioning, adding it to the staging area.
++ ``git commit -m "descriptive message":`` Records file snapshots permanently in the version history.
++ ``git pull:`` Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull is a combination of git fetch and git merge.
++ ``git push:`` Uploads all local branch commits to the remote.
++ ``git log:`` Browse and inspect the evolution of project files.
++ ``git remote -v:`` Show the associated remote repositories and their stored name, like origin.
