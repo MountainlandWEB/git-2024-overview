@@ -1,6 +1,12 @@
 ## What is Git?
 ``Git`` is a ``distributed version control`` software. Version control is a way to save changes over time without overwriting previous versions. Being ``distributed`` means that every developer working with a Git repository has a copy of that entire repository – every commit, every branch, every file.
 
+## Register for a Git Account
+GitHub is the single largest host for Git repositories, and is the central point of collaboration for millions of developers and projects. A large percentage of all Git repositories are hosted on GitHub, and many open-source projects use it for Git hosting, issue tracking, code review, and other things. So while it’s not a direct part of the Git open source project, there’s a good chance that you’ll want or need to interact with GitHub at some point while using Git professionally.
+
+### Account Setup and Configuration
+The first thing you need to do is set up a free user account. Simply visit ``[https://github.com](https://github.com/signup?source=login)``, type your email address and a password, then enter a username click the ``Continue`` green button. Then account will need to be verified with a puzzle then a code from your email address.
+
 Whether or not you've worked with version control before, there are a few things you should know before getting started with Git:
 
 ## Why use Git?
